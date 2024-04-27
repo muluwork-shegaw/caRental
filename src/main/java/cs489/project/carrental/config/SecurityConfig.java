@@ -37,6 +37,7 @@ public class SecurityConfig {
                                         "/swagger-resources/*",
                                         "/v3/api-docs/**")
                                 .permitAll()
+                                .requestMatchers("/rentalAgent/*").hasAuthority("all")
                                 .requestMatchers("/vehicles/register").permitAll()
                                 .requestMatchers("/vehicles/{vehicleId}").permitAll()
                                 .requestMatchers("/uaa/login").permitAll()
