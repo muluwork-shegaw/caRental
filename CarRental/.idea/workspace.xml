@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9b0e6b2c-059b-4174-9c9e-aec144bcf113" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/CarRentalApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/DTO/AddressDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/DTO/AgreementDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/DTO/BadgeDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/DTO/BillDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/DTO/BranchDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/DTO/CarDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/DTO/CardDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/DTO/CustomerDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/DTO/FeedbackDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/DTO/PermissionDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/DTO/RentalAgentDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/DTO/ReservationDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/DTO/ReviewDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/DTO/ServiceDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/DTO/User/BasicUserDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/DTO/User/UserAuthReqDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/DTO/User/UserDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/DTO/VehicleDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/DTO/auth/RefreshTokenRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/DTO/auth/UserRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/DTO/auth/UserResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/DTO/request/AvailableCarReqDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/DTO/request/DurationReqDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/DTO/roleDto/CreateRoleDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/DTO/roleDto/UpdateRoleDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/advice/AppExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/advice/ExceptionMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/advice/UserAuthExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/config/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/config/OpenApiConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/controller/CarController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/controller/CustomerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/controller/RentalAgentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/controller/ReservationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/controller/RoleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/controller/UaaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/controller/VehicleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/filter/JwtAuthFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/model/domain/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/model/domain/Agreement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/model/domain/Badge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/model/domain/Bill.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/model/domain/Branch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/model/domain/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/model/domain/Card.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/model/domain/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/model/domain/Feedback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/model/domain/Permission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/model/domain/RentalAgent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/model/domain/Reservation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/model/domain/Review.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/model/domain/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/model/domain/Service.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/model/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/model/domain/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/model/helperClass/AvailabilityStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/model/helperClass/ReservationStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/model/helperClass/VehicleType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/repository/AddressRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/repository/AgreementRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/repository/BadgeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/repository/BillRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/repository/BranchRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/repository/CarRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/repository/CardRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/repository/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/repository/FeedbackRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/repository/PermissionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/repository/RentalAgentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/repository/ReservationRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/repository/ReviewRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/repository/RoleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/repository/ServiceRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/repository/UserRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/repository/VehicleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/security/APIUserDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/service/AddressService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/service/AgreementService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/service/AuthService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/service/BadgeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/service/BillService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/service/BranchService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/service/CarService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/service/CardService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/service/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/service/FeedbackService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/service/Impl/AddressServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/service/Impl/AgreementServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/service/Impl/AuthServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/service/Impl/BadgeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/service/Impl/BillServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/service/Impl/BranchServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/service/Impl/CarServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/service/Impl/CardServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/service/Impl/CustomerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/service/Impl/FeedbackServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/service/Impl/PermissionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/service/Impl/RentalAgentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/service/Impl/ReservationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/service/Impl/ReviewServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/service/Impl/RoleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/service/Impl/ServiceServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/service/Impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/service/Impl/VehicleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/service/PermissionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/service/RentalAgentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/service/ReservationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/service/ReviewService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/service/RoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/service/ServiceService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/service/VehicleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/utility/JwtUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs489/project/carrental/utility/Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/dummyData.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cs489/project/carrental/CarRentalApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cs489/project/carrental/unitTest/VehicleControllerIntegrationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cs489/project/carrental/unitTest/VehicleServiceTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="package-info" />
+        <option value="Dockerfile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;muluwork-shegaw&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:muluwork-shegaw/caRental.git",
+    "accountId": "3e78021d-5d22-45ae-b01c-33d0e1bf3a6d"
+  }
+}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2evCiNfaR97Vtg24v8LAYV91j7g" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Database Script.data.sql.executor": "Run",
+    "Docker.Dockerfile.executor": "Run",
+    "Docker.docker-compose.yml.app: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yml.db: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
+    "JUnit.VehicleControllerIntegrationTest.executor": "Run",
+    "JUnit.VehicleServiceTest.executor": "Run",
+    "JUnit.VehicleServiceTest.testFindAvailableVehicles.executor": "Run",
+    "JUnit.VehicleServiceTest.testGetVehicleById.executor": "Run",
+    "Maven.CarRental [clean].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.CarRentalApplication.executor": "Run",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/maggie/Documents/Car_Rental/CarRental",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "spring.configuration.checksum": "d7b83ec1efc880a578bfa5c1b92a9e39",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ],
+    "RunConfigurationTargetLRU": [
+      "571fa784-da1f-41d1-a080-97427932106f",
+      "a4c1eb98-d488-43f1-bcd5-73ab9dec369c/schema/\"CarRental_db\""
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cs489.project.carrental.model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/cs489/project/carrental/service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CarRentalApplication">
+    <configuration name="VehicleControllerIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CarRental" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cs489.project.carrental.unitTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cs489.project.carrental.unitTest" />
+      <option name="MAIN_CLASS_NAME" value="cs489.project.carrental.unitTest.VehicleControllerIntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VehicleServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CarRental" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cs489.project.carrental.unitTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cs489.project.carrental.unitTest" />
+      <option name="MAIN_CLASS_NAME" value="cs489.project.carrental.unitTest.VehicleServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VehicleServiceTest.testFindAvailableVehicles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CarRental" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cs489.project.carrental.unitTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cs489.project.carrental.unitTest" />
+      <option name="MAIN_CLASS_NAME" value="cs489.project.carrental.unitTest.VehicleServiceTest" />
+      <option name="METHOD_NAME" value="testFindAvailableVehicles" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VehicleServiceTest.testGetVehicleById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CarRental" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cs489.project.carrental.unitTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cs489.project.carrental.unitTest" />
+      <option name="MAIN_CLASS_NAME" value="cs489.project.carrental.unitTest.VehicleServiceTest" />
+      <option name="METHOD_NAME" value="testGetVehicleById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarRentalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="CarRental" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cs489.project.carrental.CarRentalApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.app: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="app" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.VehicleControllerIntegrationTest" />
+        <item itemvalue="JUnit.VehicleServiceTest.testGetVehicleById" />
+        <item itemvalue="JUnit.VehicleServiceTest" />
+        <item itemvalue="JUnit.VehicleServiceTest.testFindAvailableVehicles" />
+        <item itemvalue="Docker.docker-compose.yml.app: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SQLScriptSettings">
+    <option name="matrix">
+      <map>
+        <entry key="MYSQL.Drop" value="IfExists=1, DropCascade=1" />
+      </map>
+    </option>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b0e6b2c-059b-4174-9c9e-aec144bcf113" name="Changes" comment="" />
+      <created>1712775791898</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712775791898</updated>
+      <workItem from="1712775793135" duration="1654000" />
+      <workItem from="1712889401608" duration="19196000" />
+      <workItem from="1713373131339" duration="11262000" />
+      <workItem from="1713416136173" duration="10155000" />
+      <workItem from="1713745231658" duration="616000" />
+      <workItem from="1713771414670" duration="41000" />
+      <workItem from="1713929786738" duration="3122000" />
+      <workItem from="1714088891558" duration="1183000" />
+      <workItem from="1714090158525" duration="58370000" />
+      <workItem from="1714202194786" duration="10852000" />
+      <workItem from="1714236255093" duration="223000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
